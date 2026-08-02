@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Class-based dark mode (Tailwind v4 defaults to media-query based) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+
+  --color-accent: #ff6a1a;
+  --color-accent-2: #ff3d1a;
+  --color-accent-soft: #ff6a1a1a;
+
+  --color-ink-950: #0d0d0f;
+  --color-ink-900: #141417;
+  --color-ink-800: #1b1b1f;
+  --color-ink-700: #232329;
+  --color-ink-600: #2e2e36;
+
+  --color-paper-50: #faf9f7;
+  --color-paper-100: #f2f0ec;
+  --color-paper-200: #e6e3dc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper-50 text-ink-900 dark:bg-ink-950 dark:text-paper-100;
+  font-family: var(--font-sans);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: white;
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-6xl px-6 sm:px-8 lg:px-10;
+}
+
+.glow-accent {
+  background: radial-gradient(
+    circle at 50% 50%,
+    var(--color-accent) 0%,
+    transparent 70%
+  );
+}

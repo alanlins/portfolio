@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Alan Lins — Senior Software Engineer",
+    "description": "Portfolio of Alan D'Almeida Lins, Senior Fullstack Software Engineer, Software Architecture and Applied AI."
+  },
+  "nav": {
+    "home": "Home",
+    "specialties": "Specialties",
+    "about": "About me",
+    "portfolio": "Portfolio",
+    "contact": "Contact me",
+    "hireMe": "Hire Me",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "theme": {
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "hero": {
+    "greeting": "Hi, I am",
+    "name": "Alan Lins",
+    "title": "Senior Software Engineer | Fullstack | Software Architecture | Applied AI",
+    "summaryShort": "15+ years turning requirements into shipped products — from code to architecture.",
+    "ctaHireMe": "Hire Me",
+    "ctaDownloadCv": "Download CV",
+    "photoAlt": "Photo of Alan Lins"
+  },
+  "stats": {
+    "experience": "Years of experience",
+    "companies": "Companies",
+    "stacks": "Stacks mastered"
+  },
+  "specialties": {
+    "sectionTitle": "Specialties",
+    "sectionSubtitle": "Areas of technical expertise across a 15+ year career.",
+    "fullstack": {
+      "title": "Fullstack Development",
+      "description": "Building end-to-end systems with React, Angular, Node.js, Python/FastAPI and Java."
+    },
+    "architecture": {
+      "title": "Software Architecture",
+      "description": "Microservices architecture, event-driven systems (EDA) and BFF patterns for scalable products."
+    },
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "description": "Cloud integration (Azure, AWS), containers, CI/CD and messaging for continuous delivery."
+    },
+    "ai": {
+      "title": "Applied AI",
+      "description": "Active interest and ongoing study in AI Engineering applied to real products."
+    }
+  },
+  "about": {
+    "sectionTitle": "About me",
+    "summary": "Senior Software Engineer with 15+ years of experience across the full development cycle — from requirements gathering and architecture to production delivery — on small, medium and large-scale projects. A solid track record of technical growth (Developer → Senior → Tech Lead) at companies such as Accenture, MV, Compass.UOL and Fundação CERTI, working as a Fullstack engineer (React, Angular, Node.js, Python/FastAPI, Java) with a focus on microservices architecture, event-driven systems (EDA) and cloud integration (Azure, AWS). Experience leading multidisciplinary squads under agile methodologies, with hands-on DevOps practice (CI/CD, containers, messaging) and an active interest in AI Engineering applied to real products.",
+    "timelineTitle": "Professional journey",
+    "educationTitle": "Education"
+  },
+  "experience": {
+    "certi": {
+      "role": "Software Developer / Tech Lead",
+      "bullet1": "Worked as developer and tech lead on a Digital Twin project, building RESTful APIs in Python (FastAPI) and a React frontend, on an event-driven architecture (EDA) with RabbitMQ messaging.",
+      "bullet2": "Led container deployment on internal servers (Portainer) and on client environments, covering development and testing cycles.",
+      "bullet3": "Developed a solution for an energy-sector innovation project using Python and AngularJS, following agile methodology with multidisciplinary teams.",
+      "bullet4": "Worked with the Oracle, PostgreSQL, Databricks and Redis data stack to support delivered solutions."
+    },
+    "compass": {
+      "role": "Senior Systems Developer / Tech Lead",
+      "bullet1": "Acted as Tech Lead in Node.js and React on the UOL group's EdTech project, coordinating the team's technical deliveries for 5 months.",
+      "bullet2": "Developed the RaiaDrogasil e-commerce BFF in Node.js, NestJS and GraphQL, consuming the Magento2 core and microservices with MongoDB, Docker, RabbitMQ and Redis cache.",
+      "bullet3": "Worked on an internal project for client RD using Node.js and AWS Lambda (serverless architecture).",
+      "bullet4": "Conducted technical interviews and code-challenge reviews in Java Spring Boot and Node.js, contributing to the hiring process for new developers."
+    },
+    "mv": {
+      "role": "Software Developer",
+      "bullet1": "Maintained and evolved international business systems (hospital/healthcare ERP), with reports and screens in Java, Flex, HTML5, SCSS, TypeScript, Node.js, JPA and Hibernate.",
+      "bullet2": "Took part in the Flex-to-HTML5 stack migration, including building a RESTful API in Node.js to convert XML documents to JSON.",
+      "bullet3": "Joined the internal Framework and Technology team, developing reusable HTML5/TypeScript UI components adopted across multiple internal projects.",
+      "bullet4": "Maintained PL/SQL (Oracle) objects and worked on fixes and rollout of a project with a Spring Boot backend and Vue.js frontend.",
+      "bullet5": "Traveled to Peru for requirements gathering and feature development on an ERP system with an international client."
+    },
+    "accenture": {
+      "role": "Software Engineer",
+      "bullet1": "Developed features for Natura and Mapfre client systems using Java, Spring MVC, Spring WebFlow, Struts/Tiles, JSF and WebLogic.",
+      "bullet2": "Worked on-site in São Paulo, embedded with client Natura, for business requirements gathering and feature development."
+    },
+    "ufpe": {
+      "role": "Programming Intern",
+      "bullet1": "Developed screens and modules for the internal ERP system Sig@ using Java, JSF, Hibernate and Oracle."
+    }
+  },
+  "education": {
+    "postGrad": "Postgraduate degree in Software Engineering",
+    "systems": "Associate degree in Systems Analysis and Development",
+    "electronics": "Technical degree in Electronics for Computerized Systems"
+  },
+  "portfolio": {
+    "sectionTitle": "Portfolio",
+    "sectionSubtitle": "Portfolio projects - published on free servers. It may take a few seconds to upload, depending on the cloud's cold start.",
+    "publicAccess": "Public access",
+    "cineDash": {
+      "title": "Cine Dash",
+      "description": "Control panel for producing fiction films, with interactive charts and filters. Developed with React, TypeScript, TailwindCSS, and ReCharts."
+    },
+    "aiTicketTriage": {
+      "title": "AI Ticket Triage",
+      "description": "AI-powered ticket triage system. Built with Python, FastAPI, HTML, Javascript, and ClaudeAI API."
+    },
+    "orderEvents": {
+      "title": "Order Events",
+      "description": "Order event management system. Built with Java, Spring Boot, Kafka, and PostgreSQL."
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "sectionSubtitle": "Open to new opportunities as a Senior Fullstack Developer, AI Engineer or Software Architect.",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "linkedinLabel": "LinkedIn",
+    "locationLabel": "Location",
+    "githubLabel": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with React, TypeScript and Tailwind CSS."
+  }
+}

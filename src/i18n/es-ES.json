@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Alan Lins — Ingeniero de Software Sénior",
+    "description": "Portafolio de Alan D'Almeida Lins, Ingeniero de Software Sénior Fullstack, Arquitectura de Software e IA Aplicada."
+  },
+  "nav": {
+    "home": "Inicio",
+    "specialties": "Especialidades",
+    "about": "Sobre mí",
+    "portfolio": "Portafolio",
+    "contact": "Contacto",
+    "hireMe": "Contrátame",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "theme": {
+    "switchToLight": "Cambiar a tema claro",
+    "switchToDark": "Cambiar a tema oscuro"
+  },
+  "language": {
+    "label": "Idioma"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Alan Lins",
+    "title": "Ingeniero de Software Sénior | Fullstack | Arquitectura de Software | IA Aplicada",
+    "summaryShort": "15+ años convirtiendo requisitos en productos en producción — del código a la arquitectura.",
+    "ctaHireMe": "Contrátame",
+    "ctaDownloadCv": "Descargar CV",
+    "photoAlt": "Foto de Alan Lins"
+  },
+  "stats": {
+    "experience": "Años de experiencia",
+    "companies": "Empresas",
+    "stacks": "Stacks dominados"
+  },
+  "specialties": {
+    "sectionTitle": "Especialidades",
+    "sectionSubtitle": "Áreas de actuación técnica a lo largo de más de 15 años de carrera.",
+    "fullstack": {
+      "title": "Desarrollo Fullstack",
+      "description": "Construcción de sistemas de extremo a extremo con React, Angular, Node.js, Python/FastAPI y Java."
+    },
+    "architecture": {
+      "title": "Arquitectura de Software",
+      "description": "Arquitectura de microservicios, sistemas orientados a eventos (EDA) y patrones BFF para productos escalables."
+    },
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "description": "Integración en la nube (Azure, AWS), contenedores, CI/CD y mensajería para entregas continuas."
+    },
+    "ai": {
+      "title": "IA Aplicada",
+      "description": "Interés activo y estudio continuo en Ingeniería de IA aplicada a productos reales."
+    }
+  },
+  "about": {
+    "sectionTitle": "Sobre mí",
+    "summary": "Ingeniero de Software Sénior con 15+ años de experiencia en el ciclo completo de desarrollo — desde el relevamiento de requisitos y la arquitectura hasta la entrega en producción — en proyectos de pequeño, mediano y gran porte. Trayectoria de evolución técnica sólida (Desarrollador → Sénior → Tech Lead) en empresas como Accenture, MV, Compass.UOL y Fundación CERTI, actuando como Fullstack (React, Angular, Node.js, Python/FastAPI, Java) con foco en arquitectura de microservicios, sistemas orientados a eventos (EDA) e integración en la nube (Azure, AWS). Experiencia liderando equipos multidisciplinarios en metodologías ágiles, con actuación práctica en DevOps (CI/CD, contenedores, mensajería) e interés activo en Ingeniería de IA aplicada a productos reales.",
+    "timelineTitle": "Trayectoria profesional",
+    "educationTitle": "Formación académica"
+  },
+  "experience": {
+    "certi": {
+      "role": "Desarrollador de Software / Tech Lead",
+      "bullet1": "Actuó como desarrollador y tech lead en un proyecto de Digital Twin, construyendo APIs RESTful en Python (FastAPI) y frontend en React, sobre arquitectura orientada a eventos (EDA) con mensajería RabbitMQ.",
+      "bullet2": "Condujo el despliegue de contenedores en servidores internos (Portainer) y en el entorno del cliente, cubriendo los ciclos de desarrollo y pruebas.",
+      "bullet3": "Desarrolló una solución para un proyecto de innovación del sector energético con Python y AngularJS, siguiendo metodología ágil con equipos multidisciplinarios.",
+      "bullet4": "Trabajó con la pila de datos Oracle, PostgreSQL, Databricks y Redis para dar soporte a las soluciones entregadas."
+    },
+    "compass": {
+      "role": "Desarrollador de Sistemas Sénior / Tech Lead",
+      "bullet1": "Actuó como Tech Lead en Node.js y React en el proyecto EdTech del grupo UOL, coordinando las entregas técnicas del equipo durante 5 meses.",
+      "bullet2": "Desarrolló el BFF del e-commerce de RaiaDrogasil en Node.js, NestJS y GraphQL, consumiendo el core en Magento2 y microservicios con MongoDB, Docker, RabbitMQ y caché Redis.",
+      "bullet3": "Trabajó en un proyecto interno del cliente RD utilizando Node.js y AWS Lambda (arquitectura serverless).",
+      "bullet4": "Condujo entrevistas técnicas y corrección de pruebas de código en Java Spring Boot y Node.js, contribuyendo al proceso de selección de nuevos desarrolladores."
+    },
+    "mv": {
+      "role": "Desarrollador de Software",
+      "bullet1": "Mantuvo y evolucionó sistemas de negocio internacionales (ERP hospitalario/salud), con reportes y pantallas en Java, Flex, HTML5, SCSS, TypeScript, Node.js, JPA y Hibernate.",
+      "bullet2": "Participó en la migración de la pila Flex a HTML5, incluyendo la creación de una API RESTful en Node.js para convertir documentos XML a JSON.",
+      "bullet3": "Se integró al equipo interno de Framework y Tecnología, desarrollando componentes visuales reutilizables en HTML5/TypeScript adoptados en múltiples proyectos internos.",
+      "bullet4": "Realizó mantenimiento de objetos PL/SQL (Oracle) y actuó en la corrección e implantación de un proyecto con backend en Spring Boot y frontend en Vue.js.",
+      "bullet5": "Viajó a Perú para el relevamiento de requisitos y desarrollo de funcionalidades en un sistema ERP junto a un cliente internacional."
+    },
+    "accenture": {
+      "role": "Software Engineer",
+      "bullet1": "Desarrolló funcionalidades para los sistemas de los clientes Natura y Mapfre utilizando Java, Spring MVC, Spring WebFlow, Struts/Tiles, JSF y WebLogic.",
+      "bullet2": "Trabajó en São Paulo en inmersión junto al cliente Natura para el relevamiento de requisitos de negocio y desarrollo de las demandas."
+    },
+    "ufpe": {
+      "role": "Pasante de Programación",
+      "bullet1": "Desarrolló pantallas y módulos del sistema ERP interno Sig@ utilizando Java, JSF, Hibernate y Oracle."
+    }
+  },
+  "education": {
+    "postGrad": "Posgrado en Ingeniería de Software",
+    "systems": "Tecnólogo en Análisis y Desarrollo de Sistemas",
+    "electronics": "Técnico en Electrónica para Sistemas Informatizados"
+  },
+  "portfolio": {
+    "sectionTitle": "Portafolio",
+    "sectionSubtitle": "Proyectos de portafolio: publicados en servidores gratuitos. La carga puede tardar unos segundos, dependiendo del tiempo de arranque en frío de la nube.",
+    "publicAccess": "Aceso publico",
+    "cineDash": {
+      "title": "Cine Dash",
+      "description": "Panel de control para cine de ficción, con gráficos y filtros interactivos. Desarrollado con React, TypeScript, TailwindCSS y ReCharts."
+    },
+    "aiTicketTriage": {
+      "title": "AI Ticket Triage",
+      "description": "Sistema de clasificación de incidencias basado en inteligencia artificial. Desarrollado con Python, FastAPI, HTML, Javascript y la API de ClaudeAI."
+    },
+    "orderEvents": {
+      "title": "Order Events",
+      "description": "Sistema de gestión de eventos de pedidos. Desarrollado con Java, Spring Boot, Kafka y PostgreSQL."
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contacto",
+    "sectionSubtitle": "Abierto a nuevas oportunidades como Desarrollador Sénior Fullstack, Ingeniero de IA o Arquitecto de Software.",
+    "emailLabel": "Correo electrónico",
+    "whatsappLabel": "WhatsApp",
+    "linkedinLabel": "LinkedIn",
+    "locationLabel": "Ubicación",
+    "githubLabel": "GitHub"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Construido con React, TypeScript y Tailwind CSS."
+  }
+}
