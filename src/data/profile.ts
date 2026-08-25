@@ -167,10 +167,7 @@ export const portfolioProjects: ProjectPortfolio[] = [
 ];
 
 export const cvFiles = {
-  "pt-BR":
-    "https://drive.google.com/file/d/14t_n4ReTT1N-v0WcqkiPMouesFEwaOMl/view?usp=drive_link",
-  "en-US":
-    "https://drive.google.com/file/d/1TCuLzxIirAjCswBzPpVG_sGTAfGuMaGD/view?usp=drive_link",
-  "es-ES":
-    "https://drive.google.com/file/d/1ypgM4ZyUbYWe2ELyRL4HFhHGqOfuovfq/view?usp=drive_link",
+  "pt-BR": `${import.meta.env.BASE_URL}cv/cv-pt-BR.pdf`,
+  "en-US": `${import.meta.env.BASE_URL}cv/cv-en-US.pdf`,
+  "es-ES": `${import.meta.env.BASE_URL}cv/cv-es-ES.pdf`,
 } as const;

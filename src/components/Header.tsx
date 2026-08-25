@@ -92,15 +92,18 @@ export function Header() {
           </button>
         </div>
 
-        <button
-          type="button"
-          className="text-ink-900 md:hidden dark:text-paper-100"
-          onClick={() => setMenuOpen((open) => !open)}
-          aria-label={menuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
-          aria-expanded={menuOpen}
-        >
-          {menuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        <div className="flex items-center gap-2 md:hidden">
+          <ThemeToggle />
+          <button
+            type="button"
+            className="text-ink-900 dark:text-paper-100"
+            onClick={() => setMenuOpen((open) => !open)}
+            aria-label={menuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
+            aria-expanded={menuOpen}
+          >
+            {menuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
 
       <AnimatePresence>
@@ -125,25 +128,22 @@ export function Header() {
                 </button>
               ))}
 
-              <div className="flex items-center gap-3 pt-2">
-                <div className="flex items-center gap-1 rounded-full border border-ink-600/20 p-1 dark:border-paper-100/15">
-                  {supportedLanguages.map((lang) => (
-                    <button
-                      key={lang}
-                      type="button"
-                      onClick={() => i18n.changeLanguage(lang)}
-                      aria-pressed={i18n.resolvedLanguage === lang}
-                      className={`rounded-full px-2 py-1 text-xs font-semibold transition ${
-                        i18n.resolvedLanguage === lang
-                          ? 'bg-accent text-white'
-                          : 'text-ink-900/60 dark:text-paper-100/60'
-                      }`}
-                    >
-                      {LANGUAGE_LABELS[lang]}
-                    </button>
-                  ))}
-                </div>
-                <ThemeToggle />
+              <div className="flex items-center gap-1 self-start rounded-full border border-ink-600/20 p-1 dark:border-paper-100/15">
+                {supportedLanguages.map((lang) => (
+                  <button
+                    key={lang}
+                    type="button"
+                    onClick={() => i18n.changeLanguage(lang)}
+                    aria-pressed={i18n.resolvedLanguage === lang}
+                    className={`rounded-full px-2 py-1 text-xs font-semibold transition ${
+                      i18n.resolvedLanguage === lang
+                        ? 'bg-accent text-white'
+                        : 'text-ink-900/60 dark:text-paper-100/60'
+                    }`}
+                  >
+                    {LANGUAGE_LABELS[lang]}
+                  </button>
+                ))}
               </div>
 
               <button
