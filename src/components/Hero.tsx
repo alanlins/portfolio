@@ -102,7 +102,7 @@ export function Hero() {
         <img
           src={profilePhoto}
           alt={t("hero.photoAlt")}
-          className="relative aspect-square w-64 rounded-full border-4 border-ink-600/10 object-cover grayscale transition duration-500 hover:grayscale-0 sm:w-80 dark:border-paper-100/10"
+          className="relative aspect-square w-64 rounded-full border-4 border-ink-600/10 object-cover sm:w-80 dark:border-paper-100/10"
         />
       </motion.div>
     </section>
