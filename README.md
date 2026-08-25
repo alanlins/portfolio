@@ -53,19 +53,16 @@ editar o conteúdo.
 
 ## Deploy no GitHub Pages
 
-O workflow em `.github/workflows/deploy.yml` builda e publica automaticamente
-a cada push em `main` (instala dependências, gera os PDFs, roda os testes,
-builda e publica via GitHub Pages Actions).
+Deploy é manual, via `npm run deploy` (builda e publica `dist/` direto no
+branch `gh-pages` usando o pacote `gh-pages`).
 
 Antes do primeiro deploy:
 
 1. Ajuste `base` em [vite.config.ts](vite.config.ts) para `/<nome-do-repositorio>/`
    (já está como `/portfolio/` — troque se o repositório tiver outro nome).
-2. No GitHub, em **Settings → Pages**, defina a fonte como **GitHub Actions**.
-3. Faça push para `main`.
-
-Alternativamente, deploy manual com `npm run deploy` (usa o pacote `gh-pages`
-para publicar `dist/` direto no branch `gh-pages`).
+2. No GitHub, em **Settings → Pages**, defina a fonte como o branch
+   **gh-pages**.
+3. Rode `npm run deploy` sempre que quiser publicar uma nova versão.
 
 ## Estrutura
 
