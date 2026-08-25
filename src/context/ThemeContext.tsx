@@ -22,8 +22,13 @@ const ThemeContext = createContext<ThemeContextValue | undefined>(undefined)
 function getInitialTheme(): Theme {
   if (typeof window === 'undefined') return 'dark'
 
-  const stored = window.localStorage.getItem(THEME_STORAGE_KEY)
-  if (stored === 'light' || stored === 'dark') return stored
+  try {
+    const stored = window.localStorage.getItem(THEME_STORAGE_KEY)
+    if (stored === 'light' || stored === 'dark') return stored
+  } catch {
+    // localStorage can throw when blocked by browser privacy settings
+    // (e.g. Brave Shields) — fall back to the system preference below.
+  }
 
   return window.matchMedia('(prefers-color-scheme: light)').matches
     ? 'light'
@@ -36,7 +41,12 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const root = document.documentElement
     root.classList.toggle('dark', theme === 'dark')
-    window.localStorage.setItem(THEME_STORAGE_KEY, theme)
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme)
+    } catch {
+      // Ignore — persisting the preference is best-effort; the toggle
+      // itself must keep working even if storage is blocked.
+    }
   }, [theme])
 
   const toggleTheme = useCallback(() => {
