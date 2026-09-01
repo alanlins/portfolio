@@ -109,13 +109,9 @@
       "title": "Cine Dash",
       "description": "Panel de control para cine de ficción, con gráficos y filtros interactivos. Desarrollado con React, TypeScript, TailwindCSS y ReCharts."
     },
-    "aiTicketTriage": {
-      "title": "AI Ticket Triage",
-      "description": "Sistema de clasificación de incidencias basado en inteligencia artificial. Desarrollado con Python, FastAPI, HTML, Javascript y la API de ClaudeAI."
-    },
-    "orderEvents": {
-      "title": "Order Events",
-      "description": "Sistema de gestión de eventos de pedidos. Desarrollado con Java, Spring Boot, Kafka y PostgreSQL."
+    "crowd": {
+      "title": "Crowd",
+      "description": "App y sitio web de condiciones de surf en tiempo real (oleaje, marea, viento, clima) con comunidad colaborativa. Desarrollado con React, React Native, NestJS, GraphQL y MongoDB."
     }
   },
   "contact": {

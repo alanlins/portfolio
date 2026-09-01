@@ -109,13 +109,9 @@
       "title": "Cine Dash",
       "description": "Dashboard para cinema fictício, com gráficos e filtros interativos. Feito com React, TypeScript, TailwindCSS e Recharts."
     },
-    "aiTicketTriage": {
-      "title": "AI Ticket Triage",
-      "description": "Sistema de triagem de tickets com inteligência artificial. Feito com Python, FastAPI, Html, Javascript e ClaudeAI API."
-    },
-    "orderEvents": {
-      "title": "Order Events",
-      "description": "Sistema de gerenciamento de eventos de pedido. Feito com Java, Spring Boot, Kafka e PostgreSQL."
+    "crowd": {
+      "title": "Crowd",
+      "description": "App e site de condições de surf em tempo real (ondulação, maré, vento, clima) com comunidade colaborativa. Feito com React, React Native, NestJS, GraphQL e MongoDB."
     }
   },
   "contact": {

@@ -8,10 +8,9 @@ describe("Portfolio", () => {
     await i18n.changeLanguage("pt-BR");
   });
 
-  it("renders three placeholder project cards", () => {
+  it("renders the project cards", () => {
     render(<Portfolio />);
     expect(screen.getAllByText("Cine Dash")).toHaveLength(1);
-    expect(screen.getAllByText("AI Ticket Triage")).toHaveLength(1);
-    expect(screen.getAllByText("Order Events")).toHaveLength(1);
+    expect(screen.getAllByText("Crowd")).toHaveLength(1);
   });
 });

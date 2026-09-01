@@ -160,16 +160,10 @@ export const portfolioProjects: ProjectPortfolio[] = [
     link: "https://cine-dash-app-5ap2w.ondigitalocean.app/",
   },
   {
-    id: "ai-ticket-triage",
-    titleKey: "portfolio.aiTicketTriage.title",
-    descriptionKey: "portfolio.aiTicketTriage.description",
-    link: "https://ai-ticket-triage-bgca.onrender.com/",
-  },
-  {
-    id: "order-events",
-    titleKey: "portfolio.orderEvents.title",
-    descriptionKey: "portfolio.orderEvents.description",
-    link: "https://notifications-service-a1z6.onrender.com/",
+    id: "crowd",
+    titleKey: "portfolio.crowd.title",
+    descriptionKey: "portfolio.crowd.description",
+    link: "https://crowd-web.com.br",
   },
 ];
 
