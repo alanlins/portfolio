@@ -9,7 +9,7 @@
     "about": "About me",
     "portfolio": "Portfolio",
     "contact": "Contact me",
-    "hireMe": "Hire Me",
+    "hireMe": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
@@ -25,7 +25,7 @@
     "name": "Alan Lins",
     "title": "Senior Software Engineer | Fullstack | Software Architecture | Applied AI",
     "summaryShort": "15+ years turning requirements into shipped products — from code to architecture.",
-    "ctaHireMe": "Hire Me",
+    "ctaHireMe": "Contact",
     "ctaDownloadCv": "Download CV",
     "photoAlt": "Photo of Alan Lins"
   },
@@ -61,6 +61,9 @@
     "educationTitle": "Education"
   },
   "experience": {
+    "capgemini": {
+      "role": "Software Engineer / Architecture"
+    },
     "certi": {
       "role": "Software Developer / Tech Lead",
       "bullet1": "Worked as developer and tech lead on a Digital Twin project, building RESTful APIs in Python (FastAPI) and a React frontend, on an event-driven architecture (EDA) with RabbitMQ messaging.",
@@ -117,7 +120,7 @@
   },
   "contact": {
     "sectionTitle": "Contact",
-    "sectionSubtitle": "Open to new opportunities as a Senior Fullstack Developer, AI Engineer or Software Architect.",
+    "sectionSubtitle": "Currently at Capgemini as a Software Engineer / Architecture. Open to discussing projects and collaborations.",
     "emailLabel": "Email",
     "whatsappLabel": "WhatsApp",
     "linkedinLabel": "LinkedIn",

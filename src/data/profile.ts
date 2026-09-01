@@ -16,7 +16,7 @@ export const contact = {
 
 export const stats = [
   { value: "15+", labelKey: "stats.experience" },
-  { value: "5", labelKey: "stats.companies" },
+  { value: "6", labelKey: "stats.companies" },
   { value: "10+", labelKey: "stats.stacks" },
 ] as const;
 
@@ -29,6 +29,13 @@ export interface Experience {
 }
 
 export const experiences: Experience[] = [
+  {
+    company: "Capgemini",
+    period: "2026 — atual",
+    location: "Recife, Pernambuco, Brasil (híbrido)",
+    roleKey: "experience.capgemini.role",
+    bulletKeys: [],
+  },
   {
     company: "Fundação CERTI",
     period: "2023 — 2026",
