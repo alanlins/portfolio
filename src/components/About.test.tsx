@@ -11,8 +11,8 @@ describe('About', () => {
   it('renders the professional summary and all experience companies', () => {
     const { container } = render(<About />)
 
-    expect(container.textContent).toMatch(/Engenheiro de Software Sênior com 15\+ anos/)
-    ;['Fundação CERTI', 'Compass.UOL', 'MV S/A', 'Accenture Brasil', 'UFPE'].forEach((company) => {
+    expect(container.textContent).toMatch(/Arquiteto de Software com 15\+ anos/)
+    ;['Capgemini', 'Fundação CERTI', 'Compass.UOL', 'MV S/A', 'Accenture Brasil', 'UFPE'].forEach((company) => {
       expect(container.textContent).toContain(company)
     })
   })

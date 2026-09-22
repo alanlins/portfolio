@@ -56,19 +56,24 @@
   },
   "about": {
     "sectionTitle": "About me",
-    "summary": "Senior Software Engineer with 15+ years of experience across the full development cycle — from requirements gathering and architecture to production delivery — on small, medium and large-scale projects. A solid track record of technical growth (Developer → Senior → Tech Lead) at companies such as Accenture, MV, Compass.UOL and Fundação CERTI, working as a Fullstack engineer (React, Angular, Node.js, Python/FastAPI, Java) with a focus on microservices architecture, event-driven systems (EDA) and cloud integration (Azure, AWS). Experience leading multidisciplinary squads under agile methodologies, with hands-on DevOps practice (CI/CD, containers, messaging) and an active interest in AI Engineering applied to real products.",
+    "summary": "Software Engineering Specialist and Software Architect with 15+ years of experience across the full development cycle — from requirements gathering and architecture to production delivery — on small, medium and large-scale projects. A solid track record of technical growth (Developer → Senior → Tech Lead → Architecture) at companies such as Accenture, MV, Compass.UOL and Fundação CERTI, working as a Fullstack engineer (React, Angular, Node.js, Python/FastAPI, Java) with a focus on microservices architecture, event-driven systems (EDA) and cloud integration (Azure, AWS). Experience leading multidisciplinary squads under agile methodologies, with hands-on DevOps practice (CI/CD, containers, messaging) and an active interest in AI Engineering applied to real products. Currently at Capgemini, working in software architecture on a large-scale public-sector project (Java, Angular, Kafka, Oracle).",
     "timelineTitle": "Professional journey",
     "educationTitle": "Education"
   },
   "experience": {
     "capgemini": {
-      "role": "Software Engineer / Architecture"
+      "role": "Software Engineering Specialist / Architecture",
+      "bullet1": "Software architecture and development on a large-scale public-sector project, in a hybrid environment.",
+      "bullet2": "Analysis of processes and the existing ecosystem to support architectural decisions.",
+      "bullet3": "Stack: Java, Angular, Oracle, Apache Kafka, Apache Airflow, Jenkins and GitLab CI/CD.",
+      "bullet4": "Quality practices: TDD, BDD and ATDD.",
+      "bullet5": "Application of AI in the development cycle."
     },
     "certi": {
       "role": "Software Developer / Tech Lead",
       "bullet1": "Worked as developer and tech lead on a Digital Twin project, building RESTful APIs in Python (FastAPI) and a React frontend, on an event-driven architecture (EDA) with RabbitMQ messaging.",
       "bullet2": "Led container deployment on internal servers (Portainer) and on client environments, covering development and testing cycles.",
-      "bullet3": "Developed a solution for an energy-sector innovation project using Python and AngularJS, following agile methodology with multidisciplinary teams.",
+      "bullet3": "Developed a solution for an innovation project using Python and AngularJS, following agile methodology with multidisciplinary teams.",
       "bullet4": "Worked with the Oracle, PostgreSQL, Databricks and Redis data stack to support delivered solutions."
     },
     "compass": {
@@ -116,7 +121,7 @@
   },
   "contact": {
     "sectionTitle": "Contact",
-    "sectionSubtitle": "Currently at Capgemini as a Software Engineer / Architecture. Open to discussing projects and collaborations.",
+    "sectionSubtitle": "Currently at Capgemini as a Software Engineering Specialist / Architecture. Open to discussing projects and collaborations.",
     "emailLabel": "Email",
     "whatsappLabel": "WhatsApp",
     "linkedinLabel": "LinkedIn",

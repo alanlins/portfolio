@@ -56,19 +56,24 @@
   },
   "about": {
     "sectionTitle": "Sobre mim",
-    "summary": "Engenheiro de Software Sênior com 15+ anos de experiência no ciclo completo de desenvolvimento — do levantamento de requisitos e arquitetura à entrega em produção — em projetos de pequeno, médio e grande porte. Trajetória de evolução técnica sólida (Desenvolvedor → Sênior → Tech Lead) em empresas como Accenture, MV, Compass.UOL e Fundação CERTI, atuando como Fullstack (React, Angular, Node.js, Python/FastAPI, Java) com foco em arquitetura de microsserviços, sistemas orientados a eventos (EDA) e integração em nuvem (Azure, AWS). Experiência liderando squads multidisciplinares em metodologias ágeis, com atuação prática em DevOps (CI/CD, containers, mensageria) e interesse ativo em Engenharia de IA aplicada a produtos reais.",
+    "summary": "Especialista em Engenharia de Software e Arquiteto de Software com 15+ anos de experiência no ciclo completo de desenvolvimento — do levantamento de requisitos e arquitetura à entrega em produção — em projetos de pequeno, médio e grande porte. Trajetória de evolução técnica sólida (Desenvolvedor → Sênior → Tech Lead → Arquitetura) em empresas como Accenture, MV, Compass.UOL e Fundação CERTI, atuando como Fullstack (React, Angular, Node.js, Python/FastAPI, Java) com foco em arquitetura de microsserviços, sistemas orientados a eventos (EDA) e integração em nuvem (Azure, AWS). Experiência liderando squads multidisciplinares em metodologias ágeis, com atuação prática em DevOps (CI/CD, containers, mensageria) e interesse ativo em Engenharia de IA aplicada a produtos reais. Atualmente na Capgemini, atuando com arquitetura de software em projeto de grande porte do setor público (Java, Angular, Kafka, Oracle).",
     "timelineTitle": "Trajetória profissional",
     "educationTitle": "Formação acadêmica"
   },
   "experience": {
     "capgemini": {
-      "role": "Engenheiro de Software / Arquitetura"
+      "role": "Especialista em Engenharia de Software / Arquitetura",
+      "bullet1": "Atuação em arquitetura e desenvolvimento de software em projeto de grande porte do setor público, em ambiente híbrido.",
+      "bullet2": "Análise de processos e do ecossistema existente para apoiar decisões arquiteturais.",
+      "bullet3": "Stack: Java, Angular, Oracle, Apache Kafka, Apache Airflow, Jenkins e GitLab CI/CD.",
+      "bullet4": "Práticas de qualidade: TDD, BDD e ATDD.",
+      "bullet5": "Aplicação de IA no ciclo de desenvolvimento."
     },
     "certi": {
       "role": "Desenvolvedor de Software / Tech Lead",
       "bullet1": "Atuou como desenvolvedor e tech lead em projeto de Digital Twin, construindo APIs RESTful em Python (FastAPI) e frontend em React, sobre arquitetura orientada a eventos (EDA) com mensageria RabbitMQ.",
       "bullet2": "Conduziu o deploy de containers em servidores internos (Portainer) e em ambiente do cliente, cobrindo os ciclos de desenvolvimento e testes.",
-      "bullet3": "Desenvolveu solução para projeto de inovação do setor energético com Python e AngularJS, seguindo metodologia ágil com equipes multidisciplinares.",
+      "bullet3": "Desenvolveu solução para projeto de inovação com Python e AngularJS, seguindo metodologia ágil com equipes multidisciplinares.",
       "bullet4": "Trabalhou com stack de dados Oracle, PostgreSQL, Databricks e Redis para suportar as soluções entregues."
     },
     "compass": {
@@ -116,7 +121,7 @@
   },
   "contact": {
     "sectionTitle": "Contato",
-    "sectionSubtitle": "Atualmente na Capgemini como Engenheiro de Software / Arquitetura. Aberto a trocar ideias sobre projetos e colaborações.",
+    "sectionSubtitle": "Atualmente na Capgemini como Especialista em Engenharia de Software / Arquitetura. Aberto a trocar ideias sobre projetos e colaborações.",
     "emailLabel": "E-mail",
     "whatsappLabel": "WhatsApp",
     "linkedinLabel": "LinkedIn",

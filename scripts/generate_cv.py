@@ -51,6 +51,8 @@ CONTACT = {
 }
 
 EXPERIENCES = [
+    {"key": "capgemini", "company": "Capgemini", "period": "2026 - atual",
+     "location": "Recife, Pernambuco, Brasil (híbrido)"},
     {"key": "certi", "company": "Fundação CERTI", "period": "2023 - 2026",
      "location": "Santa Catarina, Brasil (remoto)"},
     {"key": "compass", "company": "Compass.UOL", "period": "2020 - 2022",

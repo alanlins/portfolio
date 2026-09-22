@@ -34,7 +34,13 @@ export const experiences: Experience[] = [
     period: "2026 — atual",
     location: "Recife, Pernambuco, Brasil (híbrido)",
     roleKey: "experience.capgemini.role",
-    bulletKeys: [],
+    bulletKeys: [
+      "experience.capgemini.bullet1",
+      "experience.capgemini.bullet2",
+      "experience.capgemini.bullet3",
+      "experience.capgemini.bullet4",
+      "experience.capgemini.bullet5",
+    ],
   },
   {
     company: "Fundação CERTI",
