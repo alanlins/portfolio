@@ -2,6 +2,14 @@
 
 Guia para trabalhar neste repositório (portfolio pessoal de Alan Lins).
 
+## Ambiente
+
+- **Runtime**: Node 24 + npm (`package-lock.json`); Python 3.12+ só para os PDFs de currículo.
+- `npm ci` → `npm run dev` (porta 5173) · `npm run build` · `npm run test:run` · `npm run lint` · `npm run deploy` (gh-pages, precisa de permissão de push).
+- Sem variáveis de ambiente nem segredos. Nenhum caminho de máquina é usado.
+- `scripts/generate_cv.py` tem a própria lista de experiências (`EXPERIENCES`): mantenha sincronizada com `src/data/profile.ts` e `src/i18n/*.json`.
+- Regras comuns do workspace: `$PROJECTS_ROOT/CLAUDE.md`.
+
 ## Fonte de verdade do conteúdo
 
 - **Dados estruturados não-textuais** (empresas, períodos, localização,
